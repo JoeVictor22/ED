@@ -1,4 +1,5 @@
 #include <stdio.h>
+//incompleto
 //input 		100 200 1 3 5 4 2 5 6 3
 int main(){
 
