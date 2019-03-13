@@ -12,8 +12,7 @@ int main() {
 		while (string[i] != '\0') {
 			if (string[i] == '(') {
 				par++;
-			}
-			if (string[i] == ')' && par!=0) {
+			}else if (string[i] == ')' && par!=0) {
 				par--;
 			}else if(string[i] == ')' && par == 0){
 			    exist++;
